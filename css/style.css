@@ -1,0 +1,237 @@
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 30px 40px 30px;
+  color: #141414; }
+  #nav h1 {
+    font-size: 25px; }
+  #nav ul#nav_menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    align-items: flex-end; }
+    #nav ul#nav_menu li {
+      margin: 5px 20px;
+      transition: 150ms linear;
+      -webkit-transition: 150ms linear;
+      cursor: pointer; }
+      #nav ul#nav_menu li button {
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        color: #141414; }
+      #nav ul#nav_menu li button:hover {
+        background-color: rgba(255, 42, 173, 0.5);
+        border: none; }
+      #nav ul#nav_menu li button:focus {
+        border: none;
+        outline: none; }
+
+@media (max-width: 500px) {
+  #nav ul#nav_menu li {
+    margin: 0px 10px; } }
+#portfolio {
+  padding: 1vh 0px;
+  height: calc(100vh - 138px);
+  display: flex;
+  justify-content: center;
+  position: relative; }
+  #portfolio #back {
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+    transition: 150ms linear;
+    -webkit-transition: 150ms linear;
+    cursor: pointer; }
+  #portfolio #back:hover {
+    background-color: rgba(255, 42, 173, 0.5); }
+  #portfolio #portfolio_item {
+    width: 1000px;
+    height: 100%;
+    position: relative;
+    max-height: 600px; }
+    #portfolio #portfolio_item .image_item {
+      position: absolute; }
+      #portfolio #portfolio_item .image_item .color {
+        width: 300px;
+        height: 300px;
+        background-color: #ff2aad;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      #portfolio #portfolio_item .image_item img {
+        width: 300px;
+        height: 300px; }
+    #portfolio #portfolio_item .image_item:hover {
+      transition: 150ms linear;
+      -webkit-transition: 150ms linear;
+      z-index: 10;
+      cursor: pointer; }
+      #portfolio #portfolio_item .image_item:hover .color {
+        opacity: 0.5; }
+    #portfolio #portfolio_item #image01 {
+      top: 280px;
+      left: 100px; }
+    #portfolio #portfolio_item #image02 {
+      top: 100px;
+      left: 330px; }
+    #portfolio #portfolio_item #image03 {
+      top: 40px;
+      left: 600px; }
+    #portfolio #portfolio_item #image04 {
+      top: 320px;
+      left: 495px; }
+    #portfolio #portfolio_item #image05 {
+      top: 0px;
+      left: 140px; }
+    #portfolio #portfolio_item #image06 {
+      top: 250px;
+      left: 660px; }
+  #portfolio .portfolio_class {
+    display: none;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px; }
+    #portfolio .portfolio_class .portfolio_class_div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    #portfolio .portfolio_class .carousel_div .carousel {
+      width: 550px !important;
+      margin: 0px 0px 0px 0px !important; }
+    #portfolio .portfolio_class .description {
+      padding: 0px 5vw;
+      width: 100%; }
+      #portfolio .portfolio_class .description h1 {
+        font-size: 30px;
+        margin-bottom: 30px; }
+  #portfolio #aboutModal, #portfolio #contactModal, #portfolio #cvModal {
+    background-color: rgba(255, 42, 173, 0.5); }
+    #portfolio #aboutModal #modalAbout, #portfolio #aboutModal #modalContact, #portfolio #aboutModal #modalCv, #portfolio #contactModal #modalAbout, #portfolio #contactModal #modalContact, #portfolio #contactModal #modalCv, #portfolio #cvModal #modalAbout, #portfolio #cvModal #modalContact, #portfolio #cvModal #modalCv {
+      max-width: 700px; }
+      #portfolio #aboutModal #modalAbout .modal-content, #portfolio #aboutModal #modalContact .modal-content, #portfolio #aboutModal #modalCv .modal-content, #portfolio #contactModal #modalAbout .modal-content, #portfolio #contactModal #modalContact .modal-content, #portfolio #contactModal #modalCv .modal-content, #portfolio #cvModal #modalAbout .modal-content, #portfolio #cvModal #modalContact .modal-content, #portfolio #cvModal #modalCv .modal-content {
+        border: none;
+        border-radius: 0px; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-header #aboutModalLongTitle, #portfolio #aboutModal #modalAbout .modal-content .modal-header #contactModalLongTitle, #portfolio #aboutModal #modalAbout .modal-content .modal-header #cvModalLongTitle, #portfolio #aboutModal #modalContact .modal-content .modal-header #aboutModalLongTitle, #portfolio #aboutModal #modalContact .modal-content .modal-header #contactModalLongTitle, #portfolio #aboutModal #modalContact .modal-content .modal-header #cvModalLongTitle, #portfolio #aboutModal #modalCv .modal-content .modal-header #aboutModalLongTitle, #portfolio #aboutModal #modalCv .modal-content .modal-header #contactModalLongTitle, #portfolio #aboutModal #modalCv .modal-content .modal-header #cvModalLongTitle, #portfolio #contactModal #modalAbout .modal-content .modal-header #aboutModalLongTitle, #portfolio #contactModal #modalAbout .modal-content .modal-header #contactModalLongTitle, #portfolio #contactModal #modalAbout .modal-content .modal-header #cvModalLongTitle, #portfolio #contactModal #modalContact .modal-content .modal-header #aboutModalLongTitle, #portfolio #contactModal #modalContact .modal-content .modal-header #contactModalLongTitle, #portfolio #contactModal #modalContact .modal-content .modal-header #cvModalLongTitle, #portfolio #contactModal #modalCv .modal-content .modal-header #aboutModalLongTitle, #portfolio #contactModal #modalCv .modal-content .modal-header #contactModalLongTitle, #portfolio #contactModal #modalCv .modal-content .modal-header #cvModalLongTitle, #portfolio #cvModal #modalAbout .modal-content .modal-header #aboutModalLongTitle, #portfolio #cvModal #modalAbout .modal-content .modal-header #contactModalLongTitle, #portfolio #cvModal #modalAbout .modal-content .modal-header #cvModalLongTitle, #portfolio #cvModal #modalContact .modal-content .modal-header #aboutModalLongTitle, #portfolio #cvModal #modalContact .modal-content .modal-header #contactModalLongTitle, #portfolio #cvModal #modalContact .modal-content .modal-header #cvModalLongTitle, #portfolio #cvModal #modalCv .modal-content .modal-header #aboutModalLongTitle, #portfolio #cvModal #modalCv .modal-content .modal-header #contactModalLongTitle, #portfolio #cvModal #modalCv .modal-content .modal-header #cvModalLongTitle {
+          font-size: 25px;
+          font-family: 'Poppins', sans-serif; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-header button.close-button-style:focus, #portfolio #aboutModal #modalContact .modal-content .modal-header button.close-button-style:focus, #portfolio #aboutModal #modalCv .modal-content .modal-header button.close-button-style:focus, #portfolio #contactModal #modalAbout .modal-content .modal-header button.close-button-style:focus, #portfolio #contactModal #modalContact .modal-content .modal-header button.close-button-style:focus, #portfolio #contactModal #modalCv .modal-content .modal-header button.close-button-style:focus, #portfolio #cvModal #modalAbout .modal-content .modal-header button.close-button-style:focus, #portfolio #cvModal #modalContact .modal-content .modal-header button.close-button-style:focus, #portfolio #cvModal #modalCv .modal-content .modal-header button.close-button-style:focus {
+          outline: none; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-body p, #portfolio #aboutModal #modalContact .modal-content .modal-body p, #portfolio #aboutModal #modalCv .modal-content .modal-body p, #portfolio #contactModal #modalAbout .modal-content .modal-body p, #portfolio #contactModal #modalContact .modal-content .modal-body p, #portfolio #contactModal #modalCv .modal-content .modal-body p, #portfolio #cvModal #modalAbout .modal-content .modal-body p, #portfolio #cvModal #modalContact .modal-content .modal-body p, #portfolio #cvModal #modalCv .modal-content .modal-body p {
+          padding: 5px 0px;
+          line-height: 1.3; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-body .cv-item, #portfolio #aboutModal #modalContact .modal-content .modal-body .cv-item, #portfolio #aboutModal #modalCv .modal-content .modal-body .cv-item, #portfolio #contactModal #modalAbout .modal-content .modal-body .cv-item, #portfolio #contactModal #modalContact .modal-content .modal-body .cv-item, #portfolio #contactModal #modalCv .modal-content .modal-body .cv-item, #portfolio #cvModal #modalAbout .modal-content .modal-body .cv-item, #portfolio #cvModal #modalContact .modal-content .modal-body .cv-item, #portfolio #cvModal #modalCv .modal-content .modal-body .cv-item {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+          #portfolio #aboutModal #modalAbout .modal-content .modal-body .cv-item div, #portfolio #aboutModal #modalContact .modal-content .modal-body .cv-item div, #portfolio #aboutModal #modalCv .modal-content .modal-body .cv-item div, #portfolio #contactModal #modalAbout .modal-content .modal-body .cv-item div, #portfolio #contactModal #modalContact .modal-content .modal-body .cv-item div, #portfolio #contactModal #modalCv .modal-content .modal-body .cv-item div, #portfolio #cvModal #modalAbout .modal-content .modal-body .cv-item div, #portfolio #cvModal #modalContact .modal-content .modal-body .cv-item div, #portfolio #cvModal #modalCv .modal-content .modal-body .cv-item div {
+            padding: 10px 20px; }
+            #portfolio #aboutModal #modalAbout .modal-content .modal-body .cv-item div h1, #portfolio #aboutModal #modalContact .modal-content .modal-body .cv-item div h1, #portfolio #aboutModal #modalCv .modal-content .modal-body .cv-item div h1, #portfolio #contactModal #modalAbout .modal-content .modal-body .cv-item div h1, #portfolio #contactModal #modalContact .modal-content .modal-body .cv-item div h1, #portfolio #contactModal #modalCv .modal-content .modal-body .cv-item div h1, #portfolio #cvModal #modalAbout .modal-content .modal-body .cv-item div h1, #portfolio #cvModal #modalContact .modal-content .modal-body .cv-item div h1, #portfolio #cvModal #modalCv .modal-content .modal-body .cv-item div h1 {
+              font-size: 20px;
+              padding-bottom: 15px; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-footer button.close-button, #portfolio #aboutModal #modalContact .modal-content .modal-footer button.close-button, #portfolio #aboutModal #modalCv .modal-content .modal-footer button.close-button, #portfolio #contactModal #modalAbout .modal-content .modal-footer button.close-button, #portfolio #contactModal #modalContact .modal-content .modal-footer button.close-button, #portfolio #contactModal #modalCv .modal-content .modal-footer button.close-button, #portfolio #cvModal #modalAbout .modal-content .modal-footer button.close-button, #portfolio #cvModal #modalContact .modal-content .modal-footer button.close-button, #portfolio #cvModal #modalCv .modal-content .modal-footer button.close-button {
+          padding: 0px 20px;
+          font-size: 13px;
+          font-family: 'Poppins', sans-serif;
+          background-color: white;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          line-height: 1;
+          transition: 150ms linear;
+          -webkit-transition: 150ms linear; }
+        #portfolio #aboutModal #modalAbout .modal-content .modal-footer button.close-button:hover, #portfolio #aboutModal #modalContact .modal-content .modal-footer button.close-button:hover, #portfolio #aboutModal #modalCv .modal-content .modal-footer button.close-button:hover, #portfolio #contactModal #modalAbout .modal-content .modal-footer button.close-button:hover, #portfolio #contactModal #modalContact .modal-content .modal-footer button.close-button:hover, #portfolio #contactModal #modalCv .modal-content .modal-footer button.close-button:hover, #portfolio #cvModal #modalAbout .modal-content .modal-footer button.close-button:hover, #portfolio #cvModal #modalContact .modal-content .modal-footer button.close-button:hover, #portfolio #cvModal #modalCv .modal-content .modal-footer button.close-button:hover {
+          background-color: rgba(255, 42, 173, 0.5); }
+
+@media (max-width: 960px) {
+  #portfolio {
+    height: 100vh;
+    justify-content: left;
+    margin-left: 30px; }
+    #portfolio #back {
+      left: 20px; }
+    #portfolio #portfolio_item {
+      width: auto;
+      height: 100%;
+      position: relative;
+      max-height: 100vh; }
+      #portfolio #portfolio_item .image_item {
+        position: static;
+        padding: 20px 0px; }
+        #portfolio #portfolio_item .image_item .color {
+          display: none; }
+    #portfolio .portfolio_class .portfolio_class_div {
+      display: flex;
+      flex-direction: column;
+      justify-content: left; }
+    #portfolio .portfolio_class .carousel_div .carousel {
+      width: 450px !important; }
+    #portfolio .portfolio_class .description {
+      padding: 0px;
+      margin-top: 30px;
+      margin-right: 30px;
+      width: 450px; } }
+@media (max-width: 500px) {
+  #portfolio {
+    height: 100vh;
+    justify-content: left;
+    margin-left: 30px; }
+    #portfolio #back {
+      left: 0px; }
+    #portfolio .portfolio_class .carousel_div .carousel {
+      width: 320px !important; }
+    #portfolio .portfolio_class .description {
+      width: 320px; } }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+  body .carousel-control-next,
+  body .carousel-control-prev {
+    filter: invert(100%); }
+
+h1, p, h2, ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1; }
+
+.display {
+  display: none; }
+
+h1 {
+  font-family: 'Poppins', sans-serif; }
+
+p {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+::-webkit-scrollbar {
+  width: 6px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(251, 220, 116, 0.6); }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fbdc74; }
+
+/*# sourceMappingURL=style.css.map */

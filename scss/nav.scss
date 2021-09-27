@@ -1,0 +1,64 @@
+@import 'variables';
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 30px 40px 30px;
+    color: $dark;
+
+    h1 {
+        font-size: 25px;
+    }
+
+    ul#nav_menu {
+        @include mainFont;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        list-style: none;
+        align-items: flex-end;
+
+        li {
+            margin: 5px 20px;
+            transition: 150ms linear;
+            -webkit-transition: 150ms linear;
+            cursor: pointer;
+
+            button {
+                cursor: pointer;
+                @include mainFont;
+                font-size: 12px;
+                border: none;
+                background-color: transparent;
+                color: $dark;
+            }
+
+            button:hover {
+                background-color: rgba(255, 42, 173, 0.5);
+                border: none;
+            }
+            button:focus {
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    #nav {
+    
+        ul#nav_menu {
+
+            li{
+                margin: 0px 10px;
+            }
+        }
+    }
+
+}

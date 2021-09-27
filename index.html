@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aleksandra Niemiec</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav id="nav">
+    <h1>Aleksandra Niemiec</h1>
+    <ul id="nav_menu">
+      <li><button class="" data-toggle="modal" data-target="#aboutModal">
+          about
+        </button></li>
+        <li><button class="" data-toggle="modal" data-target="#cvModal">
+          cv
+        </button></li>
+      <li><button class="" data-toggle="modal" data-target="#contactModal">
+          contact
+        </button></li>
+    </ul>
+  </nav>
+
+  <div id="portfolio">
+    <p id="back" onclick="back()">
+      < back</p> <div id="portfolio_item">
+
+        <div id="image01" class="image_item" onclick="show('portfolio2')">
+          <div class="color"></div>
+          <img src="images/rys01.jpg" alt="">
+        </div>
+
+        <div id="image03" class="image_item" onclick="show('portfolio3')">
+          <div class="color"></div>
+          <img src="images/graphic01.jpg" alt="">
+        </div>
+
+        <div id="image04" class="image_item" onclick="show('portfolio1')">
+          <div class="color"></div>
+          <img src="images/friday01.png" alt="">
+        </div>
+
+        <div id="image05" class="image_item" onclick="show('portfolio5')">
+          <div class="color"></div>
+          <img src="images/logo.png" alt="">
+        </div>
+
+        <div id="image06" class="image_item" onclick="show('portfolio6')">
+          <div class="color"></div>
+          <img src="images/www.png" alt="">
+        </div>
+
+        <div id="image02" class="image_item" onclick="show('portfolio4')">
+          <div class="color"></div>
+          <img src="images/praca00.jpg" alt="">
+        </div>
+
+  </div>
+
+
+  <div id="portfolio1" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/friday01.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/aniemiec_friday-01.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/aniemiec_friday-02.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/aniemiec_friday-03.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/aniemiec_friday-04.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/aniemiec_friday-05.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/ENCODE01.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/ENCODE02.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/ENCODE03.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/font01.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/font02.png" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Fonts</h1>
+        <p>I like typography! Here you can see a few my fonts which I made in Glyphs and FontLab Studio.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="portfolio2" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/rys01.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/rys02.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/rys03.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/rys04.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/mal01.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/mal02.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/mal03.jpg" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Painting and drawing</h1>
+        <p>I have loved art since I was a child. I finished art high school. 
+          I made artistic furniture from my own project, I painted, drew and carved. 
+          You can see my latest images here. I hope you will like those!</p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="portfolio3" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio3" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/graphic01.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/graphic02.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/graphic03.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/graphic04.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/graphic05.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/graphic06.jpg" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Printmaking</h1>
+        <p>During my studies I did some printmaking work. It was intaglio, etching, linocut or woodcut, 
+          screen printing and litography. My favourite technique was linocut.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="portfolio4" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio4" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/praca01.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca02.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca03.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca04.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca05.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca06.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/praca07.png" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio4" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Diploma</h1>
+        <p>This is my graduation font. It's called Friday mono. It's a monospace font designed for programmers. 
+          I made it in Glyphs. Friday mono has regular and italic variety.
+        Here I want to show a few pages of my graduation book.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="portfolio5" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio5" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/logo.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/logo02.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/infografika.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/kobiniek.jpg" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio5" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio5" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Graphic design</h1>
+        <p>There are a few of my artwork. 
+          I like working with Adobe Illustrator and InDesign.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="portfolio6" class="portfolio_class">
+    <div class="portfolio_class_div">
+      <div class="carousel_div">
+        <div id="carouselPortfolio6" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/strona01.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/strona02.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/strona03.png" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/strona04.png" alt="slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselPortfolio6" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselPortfolio6" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Websites</h1>
+        <p></p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalTitle"
+    aria-hidden="true">
+    <div id="modalAbout" class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="aboutModalLongTitle">About</h5>
+          <button type="button" class="close close-button-style" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Hello! I'm Ola. I am a beginner graphic designer. About year ago I graduated from the Academy of Fine Arts in Cracow. 
+            I prepared my diploma in the labolatory of lettering and typography. I worked as a junior front-end developer for over a year,
+            doing simple projects and learning the basics of Angular. Now I would like to try my hand at an industry
+            that is closer to me – graphic design. Now I'm looking for a job as a junior or an intern. 
+            In the future I would like to learn something about UI/UX design.
+            Privately I like traveling, eating, cooking and I'm in love with my doggy - Kobe!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close-button" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalTitle"
+    aria-hidden="true">
+    <div id="modalContact" class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLongTitle">Contact</h5>
+          <button type="button" class="close close-button-style" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><a href="tel:+48796573792">+48 796573792</a></p>
+          <p><a href="mailto:aleksandraa.szwedo@gmail.com">aleksandraa.szwedo@gmail.com</a></p>
+          <p><a href="linkedin.com/in/aleksandra-sn00/">LinkedIn</a></p>
+          <p>based in Cracow</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close-button" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalTitle"
+    aria-hidden="true">
+    <div id="modalCv" class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cvModalLongTitle">CV</h5>
+          <button type="button" class="close close-button-style" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="cv-item">
+            <div class="graphic">
+              <h1>Graphic</h1>
+              <p>Adobe Illustrator, Photoshop, InDesign, PremierePro, Xd</p>
+              <p>Glyphs, Figma</p>
+            </div>
+            <div class="programming">
+              <h1>Frontend</h1>
+              <p>HTML, CSS, JS, GIT, Sass, Angular 2+ (basic)</p>
+            </div>
+            <div class="other">
+              <h1>Others</h1>
+              <p>Native Polish, communicative English, driving license</p>
+            </div>
+          </div>
+  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="close-button" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+
+$dark: #141414; 
+$grey: #575757; 
+$pink: #ff2aad; 
+
+@mixin mainFont {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin secondFont {
+    font-family: 'Roboto Condensed', sans-serif;
+}
